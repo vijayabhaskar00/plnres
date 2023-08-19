@@ -113,7 +113,7 @@
             .catch(err=>{console.log(err);alert('An error occured. Please try agian')});
         }
     </script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    
 </head>
 
 <body class="min-vh-100 d-flex flex-column">
@@ -129,11 +129,7 @@
                 <label for="Email" class="sr-only">Email</label>
                 <input type="email" name="email" id="email" class="form-control" placeholder="email address">
             </div>
-            <div class="g-recaptcha"
-                data-sitekey="6LcKvHoaAAAAAA8Bh-JzbsJWBqTYbLjx_5g82ngA"
-                data-callback="sendEnquiry"
-                data-size="invisible">
-            </div>
+            
             <button type="submit" class="btn btn-submit" id="enquiry-submit-button">Submit</button>
         </form>
         <!-- Success Modal -->
